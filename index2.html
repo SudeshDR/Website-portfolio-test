@@ -2,17 +2,67 @@
 <html>
 <head>
     <title>Printable Resume</title>
-    <style>
-        /* CSS styles for printable version here... */
-    </style>
-</head>
-<body>
-    <h1>Printable Resume</h1>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Printable Resume</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f2f2f2;
+                color: #333333;
+            }
     
-    <!-- Copy the resume content from index.html here... -->
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
     
-    <script>
-        // Additional scripts for index2.html here...
-    </script>
-</body>
-</html>
+            /* Custom styling */
+            .button {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #3caea3;
+                color: white;
+                border-radius: 5px;
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+                cursor: pointer;
+                animation: pulse 1s infinite;
+            }
+    
+            .button:hover {
+                background-color: #21888e;
+            }
+    
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+    
+                50% {
+                    transform: scale(1.05);
+                }
+    
+                100% {
+                    transform: scale(1);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Printable Resume</h1>
+        
+        <a href="https://www.facebook.com/your-profile-url" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/your-profile-url" target="_blank">Instagram</a>
+        <a href="https://github.com/your-username" target="_blank">GitHub</a>
+
+        
+        <script>
+            // Additional scripts here...
+        </script>
+    </body>
+    </html>
+
